@@ -1,0 +1,32 @@
+<!-- 
+    Simple File POST
+    Markus Hernandez
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>File Upload Tester</title>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <script src="js/upload.js" defer></script>
+    </head>
+    <body>
+        <h1>File Upload Tester</h1>
+        <form id="upload-form">
+            POST Endpoint:
+            <input type="text" id="endpoint-selector"/>
+            Upload Files:
+            <label id="upload-area-overlay">
+                <input type="file" id="upload-area" multiple/>
+                <span id="upload-area-message">
+                    Upload Files Here!
+                </span>
+            </label>
+        </form>
+        <div id="status-area-wrapper">
+            <div id="status-area">
+                <!-- Used To Display Updates -->
+            </div>
+        </div>
+    </body>
+</html>
